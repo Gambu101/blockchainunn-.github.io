@@ -1,0 +1,237 @@
+body{
+    color: green;
+    background-color: white;
+}
+.block{
+    display: grid;
+    height: 30px;
+}
+.bunn{
+    display: grid;
+    height: auto;
+    width: auto;
+}
+#bun{
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+.titles{
+    display: grid;
+    padding-left: 40px;
+    color: green;
+    align-content: flex-start;
+}
+.home{
+    grid-column: 1;
+    grid-row: 1;
+}
+.network{
+    grid-column: 2;
+    grid-row: 1;
+}
+.about{
+    grid-column: 3;
+    grid-row: 1;
+}
+.contact{
+    grid-column: 4;
+    grid-row: 1;
+}
+.support{
+    grid-column: 5;
+    grid-row: 1;
+}
+#home{
+    color: green;
+}
+#network{
+    color: green;
+}
+#about{
+    color: green;
+}
+#contact{
+    color: green;
+}
+#support{
+    color: red;
+}
+#chain{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 300px;
+    width: 700px;
+}
+.container1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 350px;
+    background-color: green;
+}
+#chainimage1{
+    grid-column: 2;
+    grid-row: 1;
+    width: 600px;
+    height: 350px;
+    filter: saturate(70%);
+    opacity: 0.6;
+}
+
+.abc{
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 60px;
+    text-align: left;
+}
+#abcd{
+    text-align: center;
+}
+#lorem{
+padding-top: 20px;
+padding-left: 30px;
+}
+.button{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 40px;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#concierge{
+    padding-right: 10px;
+    grid-column: 1;
+    grid-row: 1;
+    height: 40px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+#whitepaper{
+    padding-right: 20px;
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 10px;
+    color: green;
+}
+.container2{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    height: 250px;
+
+}
+#netwo{
+    grid-column: 1;
+    grid-row: 1;
+    width: 350px;
+    height: 280px;
+    border-radius: 10px;
+}
+.school{
+    grid-column: 2;
+    grid-row: 1;
+    width: auto;
+    padding-left: 50px;
+    padding-right: 150px;
+    justify-content: center;
+}
+#computers{
+    float: right;
+}
+#geo{
+    padding-left: 1050px;
+    font-style: italic;
+}
+#tun{
+    padding-left: 1000px;
+    font-style: italic;
+}
+@media only screen and (max-width:400px){
+    #chain{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        height: 30px;
+        width: 70px;
+    }
+    .container1{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        height: 30px;
+        background-color: green;
+    }
+    #chainimage1{
+        grid-column: 2;
+        grid-row: 1;
+        width: 60px;
+        height: 30px;
+        filter: saturate(70%);
+        opacity: 0.6;
+    }
+    .abc{
+        background-color: white;
+        padding-left: 4px;
+        padding-right: 6px;
+        text-align: left;
+    }
+    #lorem{
+        padding-top: 2px;
+        padding-left: 3px;
+    }
+    .button{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        padding-top: 4px;
+        padding-left: 3px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #concierge{
+        padding-right: 1px;
+        grid-column: 1;
+        grid-row: 1;
+        height: 4px;
+        border-radius: 1px;
+        background-color: green;
+        color: white;
+    }
+    #whitepaper{
+        padding-right: 2px;
+        grid-column: 2;
+        grid-row: 1;
+        border-radius: 1px;
+        color: green;
+    }
+    .container2{
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        height: 25px;
+    }
+    #netwo{
+        grid-column: 1;
+        grid-row: 1;
+        width: 35px;
+        height: 28px;
+        border-radius: 10px;
+    }
+    .school{
+        grid-column: 2;
+        grid-row: 1;
+        width: auto;
+        padding-left: 5px;
+        padding-right: 15px;
+        justify-content: center;
+    }
+    #geo{
+        padding-left: 105px;
+        font-style: italic;
+    }
+    #tun{
+        padding-left: 100px;
+        font-style: italic;
+    }
+}
